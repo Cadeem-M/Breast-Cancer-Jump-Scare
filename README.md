@@ -1,7 +1,7 @@
 # Breast Cancer Jump Scare
 
 <p align="center">
-<img src="Resources\Images\Breast_cancer_pic1" width="800px">
+<img src="Resources\Images\Breast_cancer_pic2.jpg" width="800px">
 </p>
 
 ## Overview 
@@ -145,6 +145,7 @@ Discuss Jas part *
 
 
 Acknowldgements
+
 
 
 Helpful links/Credits 
