@@ -57,10 +57,10 @@ What type of cancer treatment can we predict from our model based on the type of
 </p>
 
 
-4) To analyze and predict treatment types, we created 2 Sequential neural networks via tensorflow. The first is a baseline and the second makes adjustments to our layers and neurons in an attempt to improve the model.
+4) To analyze and predict treatment types, we created 2 Sequential neural networks via tensorflow and did a logistic regression. The first network and the regression model are baselines and the second network makes adjustments to our layers and neurons in an attempt to improve upon the network's model.
 
-- The first model using target: treatment_type" and
-features: 'age_at_diagnosis', 'type_of_breast_surgery', 'cancer_type',
+-   target: treatment_type" 
+    features: 'age_at_diagnosis', 'type_of_breast_surgery', 'cancer_type',
        'cancer_type_detailed', 'cellularity', 'pam50_+_claudin-low_subtype',
        'cohort', 'er_status_measured_by_ihc', 'er_status',
        'neoplasm_histologic_grade', 'her2_status_measured_by_snp6',
@@ -71,6 +71,16 @@ features: 'age_at_diagnosis', 'type_of_breast_surgery', 'cancer_type',
        'overall_survival_months', 'overall_survival', 'pr_status',
        'tumor_size',
 
+- logistic regression:
+
+<p align="center">
+<img src="Resources\Images\Screenshot 2024-08-14 194527.png" width="350px">
+</p>
+
+- An Accuracy of 52% suggest the model struggles to make predictions that align with actual outcomes
+
+
+- Sequential Models:
 <p align="center">
 <img src="Resources\Images\Screenshot 2024-08-14 182652.png" width="350px">
 </p>
@@ -92,7 +102,7 @@ features: 'age_at_diagnosis', 'type_of_breast_surgery', 'cancer_type',
     Layer 2 -> 32 neurons (half of layer 1 as we try to approach 8 neuron for our final layer)
     Layer 3 -> 8 neurons (one neuron for each treatment type)
 
--   
+- We start by using epochs = 40
 
 - This model uses relu as the activation function within the hidden layers and it uses softmax as the function for the outter layer as it attempts to solve the multi-classification problem.
 
@@ -107,25 +117,34 @@ features: 'age_at_diagnosis', 'type_of_breast_surgery', 'cancer_type',
 <img src="Resources\Images\Screenshot 2024-08-14 182728.png" width="350px">
 </p>
 
-- Epochs were increased from 75 to 200 to allow for more learning time
+- Epochs were increased from **** to **** to ***** to allow for more learning time
 
 <p align="center">
-<img src="Images\epoch1.png" width="400px">
+<img src="Resources\Images\Screenshot 2024-08-14 193627.png" width="350px">
 </p>
 
 <p align="center">
-<img src="Images\epoch2.png" width="400px">
+<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="350px">
 </p>
 
-4) The accuracy of the new model is about 72.4%
+- The accuracy of the new model is about *****
 
 <p align="center">
-<img src="Images\accuracy2.png" width="400px">
-</p>
+<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="350px">
+</p> **** needs results
+
+
+## Summary
+
+We set out to asnwer 3 questions in this project **** **** ***. Thus, we tackled each question by trying to model the answers provided in our original data set. For our model of *, our logistic regression had an accuracy of 62%. To Try improving on this we did a random survival forest and found the accuracy of **%. ** [discuss if an improvement and ways to improve. ]
+
+For our model of **, our logistic regression returned an accuracy of 52% which suggests it is not a very good model for predicting outcomes. To improve on this, we applied a Sequential model and got an accuracy of **. To further improve on this we built a more complex Sequential model. By increasing the number of nuerons and layers and adding dropout layers, our complex model finally had an accuracy of **. **[ discuss if an improvement/downgrade and ways to improve. ]
+
+Discuss Jas part *
 
 
 
-
+Acknowldgements
 
 
 Helpful links/Credits 
