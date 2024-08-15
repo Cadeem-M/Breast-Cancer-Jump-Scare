@@ -35,25 +35,25 @@ What type of cancer treatment can we predict from our model based on the type of
            'type_of_breast_surgery_BREAST CONSERVING', 'type_of_breast_surgery_MASTECTOMY', 'inferred_menopausal_state_Post'
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 113753.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 113753.png" width="500px">
 </p>
 
 - Logistic regression results
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 181448.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 181448.png" width="500px">
 </p>
 
 - Ran a Random Forest Model using target **********
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="500px">
 </p>
 
 - Logistic regression results ********************************
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 181448.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 181448.png" width="500px">
 </p>
 
 
@@ -74,7 +74,7 @@ What type of cancer treatment can we predict from our model based on the type of
 - logistic regression:
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 194527.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 194527.png" width="500px">
 </p>
 
 - An Accuracy of 52% suggest the model struggles to make predictions that align with actual outcomes
@@ -82,18 +82,18 @@ What type of cancer treatment can we predict from our model based on the type of
 
 - Sequential Models:
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 182652.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 182652.png" width="500px">
 </p>
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="500px">
 </p>
 
-<img src="Resources\Images\Screenshot 2024-08-14 192555.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 192555.png" width="500px">
 </p> 
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 113925.png" width="500px">
 </p> *********** needs results.
 
 
@@ -114,23 +114,23 @@ What type of cancer treatment can we predict from our model based on the type of
 
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 182728.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 182728.png" width="500px">
 </p>
 
 - Epochs were increased from **** to **** to ***** to allow for more learning time
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 193627.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 193627.png" width="500px">
 </p>
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="500px">
 </p>
 
 - The accuracy of the new model is about *****
 
 <p align="center">
-<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="350px">
+<img src="Resources\Images\Screenshot 2024-08-14 193707.png" width="500px">
 </p> **** needs results
 
 
