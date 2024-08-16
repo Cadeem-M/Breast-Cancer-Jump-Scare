@@ -145,7 +145,10 @@ Select 331 genes with mRNA Z-scores and 175 genes with mutation data.
 Focus on two columns: brca1 and brca2.
 Split dataset:
 Split the dataset into training, validation, and test sets (70%-15%-15%).
-<p align=“center”> <img src=“Resources\Images\Jas_Basic_Model.png” width=“600px”> </p>
+<p align="center">
+<img src="Resources\Images\Jas_Basic_Model.png" width="600px">
+</p> 
+
 
 Basic neural network model:
 Build a basic neural network model using TensorFlow/Keras.
@@ -153,8 +156,14 @@ Build a basic neural network model using TensorFlow/Keras.
 Advanced layers and regularization:
 Add advanced layers, Normalization, Dropout layers and regularization techniques.
 Tailor model architecture to genetic data (e.g., autoencoder).
-<p align=“center”> <img src=“Resources\Images\Jas_Model_Architecture_advanced.png” width=“600px”> </p>
-<p align=“center”> <img src=“Resources/Images/Jas_Model_Autoencoder.png” width=“600px”> </p>
+<p align="center">
+<img src="Resources\Images\Jas_Model_Architecture_advanced.png" width="600px">
+</p> 
+
+<p align="center">
+<img src="Resources\Images\Jas_Model_Autoencoder.png" width="600px">
+</p> 
+
 
 Model Training and Evaluation
 Compile models:
@@ -167,18 +176,29 @@ Hyperparameter tuning and evaluation:
 
 Perform hyperparameter tuning and evaluate models on the test set.
 Generate classification reports and clustering metrics.
-<p align=“center”> <img src=“Resources\Images\Jas_Model_Hyperparamter_testing.png” width=“600px”> </p>
-<p align=“center”> <img src=“Resources\Images\Jas_TensorBoard.png” width=“600px”> </p>
+<p align="center">
+<img src="Resources\Images\Jas_Model_Hyperparamter_testing.png" width="600px">
+</p> 
+<p align="center">
+<img src="Resources\Images\Jas_TensorBoard.png" width="600px">
+</p> 
+
 
 Visualization and Interpretation
 Clustering results:
 Visualize clustering results using t-SNE or PCA.
-<p align=“center”> <img src=“Resources\Images\Jas_Model_tSNE.png” width=“600px”> </p>
+<p align="center">
+<img src="Resources\Images\Jas_Model_tSNE.png" width="600px">
+</p> 
+
 
 Gene analysis:
 Analyze influential genes and the impact of clinical features on clustering.
 Generate a dendrogram based on clustering.
-<p align=“center”> <img src=“Resources\Images\Jas_Model_Dendrogram.png” width=“600px”> </p>
+<p align="center">
+<img src="Resources\Images\Jas_Model_Dendrogram.png" width="600px">
+</p> 
+
 
 
 ## Summary
