@@ -192,7 +192,7 @@ For our genetic analysis we found that the two genes in consideration can be clu
 Davies-Bouldin Index: 1.0590927326320279). The advanced model after hyperparameter tuning has an accuracy of 0.1540 and for the autoencoder model, the loss of  0.6168
 
 
-Credits 
+## Credits 
 Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) [Data set]. Kaggle.
     https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric/data
 
@@ -200,7 +200,18 @@ Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) 
     https://www.trioshealth.org/news/breast-cancer-be-aware-and-take-action
 
 
-Helpful links
+## Helpful links
 https://www.youtube.com/watch?v=f579O7Ef8C0 - How to Upload Pandas DataFrame Directly to S3 Bucket AWS python boto3
 
 https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive - saving a csv in colab
+
+
+## S3 links to our datasets
+cleaned data set (31 columns): https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Cleaned_Breast_Cancer_data.csv
+
+Predicted Survivability Dataframe: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Patients_survival.csv
+
+Uncleaned Data set: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/METABRIC_RNA_Mutation.csv
+
+## Tableau link to visualizations
+https://public.tableau.com/app/profile/lucas.perez7848/viz/Breast_Cancer_Jump_Scare_17236965875940/BreastCancerTreatmentsandSurvival?publish=yes
