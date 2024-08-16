@@ -162,3 +162,6 @@ cleaned data set (31 columns): https://project4-group5-cadeem-bucket.s3.us-east-
 Predicted Survivability Dataframe: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Patients_survival.csv
 
 Uncleaned Data set: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/METABRIC_RNA_Mutation.csv
+
+## Tableau link to visualizations
+https://public.tableau.com/app/profile/lucas.perez7848/viz/Breast_Cancer_Jump_Scare_17236965875940/BreastCancerTreatmentsandSurvival?publish=yes
