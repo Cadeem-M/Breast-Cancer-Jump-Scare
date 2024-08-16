@@ -132,6 +132,54 @@ Team 5 - Jaskirat Singh, Aditya Singh Thakur, Cadeem Musgrove and Lucas Perez - 
 <img src="Resources\Images\Screenshot 2024-08-14 233437.png" width="600px">
 </p> 
 
+5. We also aim to analyze genetic data to understand the impact of specific genes on breast cancer. The focus is on two genes, brca1 and brca2, using a dataset that includes mRNA Z-scores and mutation data. The analysis involves data preparation, model building, training, evaluation, and visualization. This can then be expanded to other genetic data columns (Constraint of GPU and computing power and time) 
+
+Load and preprocess data:
+
+Load data from Spark DataFrame to Pandas DataFrame.
+Separate clinical and genetic data.
+Normalize genetic data and handle missing data.
+Feature selection:
+
+Select 331 genes with mRNA Z-scores and 175 genes with mutation data.
+Focus on two columns: brca1 and brca2.
+Split dataset:
+Split the dataset into training, validation, and test sets (70%-15%-15%).
+<p align=“center”> <img src=“Resources\Images\Jas_Basic_Model.png” width=“600px”> </p>
+
+Basic neural network model:
+Build a basic neural network model using TensorFlow/Keras.
+
+Advanced layers and regularization:
+Add advanced layers, Normalization, Dropout layers and regularization techniques.
+Tailor model architecture to genetic data (e.g., autoencoder).
+<p align=“center”> <img src=“Resources\Images\Jas_Model_Architecture_advanced.png” width=“600px”> </p>
+<p align=“center”> <img src=“Resources/Images/Jas_Model_Autoencoder.png” width=“600px”> </p>
+
+Model Training and Evaluation
+Compile models:
+
+Compile models with appropriate loss functions and optimizers.
+Train and validate models:
+
+Train models on the training set and validate on the validation set.
+Hyperparameter tuning and evaluation:
+
+Perform hyperparameter tuning and evaluate models on the test set.
+Generate classification reports and clustering metrics.
+<p align=“center”> <img src=“Resources\Images\Jas_Model_Hyperparamter_testing.png” width=“600px”> </p>
+<p align=“center”> <img src=“Resources\Images\Jas_TensorBoard.png” width=“600px”> </p>
+
+Visualization and Interpretation
+Clustering results:
+Visualize clustering results using t-SNE or PCA.
+<p align=“center”> <img src=“Resources\Images\Jas_Model_tSNE.png” width=“600px”> </p>
+
+Gene analysis:
+Analyze influential genes and the impact of clinical features on clustering.
+Generate a dendrogram based on clustering.
+<p align=“center”> <img src=“Resources\Images\Jas_Model_Dendrogram.png” width=“600px”> </p>
+
 
 ## Summary
 
@@ -139,8 +187,9 @@ Our group set out to get a deeper understanding of breast cancer patient's treat
 
 For our model of cancer treatment, our logistic regression returned an accuracy of 52% which suggests it is not a very good model for predicting outcomes. To improve on this however, we applied a Sequential model and tried making improvementes upon it. Initially, our first Sequential got an accuracy of 57% using 3 layers and 64 initial neurons. To further improve on this, we built a more complex Sequential model by increasing the number of initial nuerons to 128 and increasing layer to 5 ( 3 hidden layers with neurons and 2 dropout layers). Our complex model's accuracy remained at 57%. Perhaps we could have looked at reducing the number of features to get better results. 
 
-Discuss Jas part *
-
+For our genetic analysis we found that the two genes in consideration can be clustered easily and definitively into 2 clusters which are correlated 
+(Silhouette Score: 0.21419882774353027
+Davies-Bouldin Index: 1.0590927326320279). The advanced model after hyperparameter tuning has an accuracy of 0.1540 and for the autoencoder model, the loss of  0.6168
 
 
 Credits 
