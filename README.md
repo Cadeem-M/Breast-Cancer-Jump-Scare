@@ -142,7 +142,7 @@ For our model of cancer treatment, our logistic regression returned an accuracy 
 
 
 
-Credits 
+## Credits 
 Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) [Data set]. Kaggle.
     https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric/data
 
@@ -150,13 +150,13 @@ Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) 
     https://www.trioshealth.org/news/breast-cancer-be-aware-and-take-action
 
 
-Helpful links
+## Helpful links
 https://www.youtube.com/watch?v=f579O7Ef8C0 - How to Upload Pandas DataFrame Directly to S3 Bucket AWS python boto3
 
 https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive - saving a csv in colab
 
 
-S3 links to our datasets
+## S3 links to our datasets
 cleaned data set (31 columns): https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Cleaned_Breast_Cancer_data.csv
 
 Predicted Survivability Dataframe: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Patients_survival.csv
