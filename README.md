@@ -139,11 +139,10 @@ Our group set out to get a deeper understanding of breast cancer patient's treat
 
 For our model of cancer treatment, our logistic regression returned an accuracy of 52% which suggests it is not a very good model for predicting outcomes. To improve on this however, we applied a Sequential model and tried making improvementes upon it. Initially, our first Sequential got an accuracy of 57% using 3 layers and 64 initial neurons. To further improve on this, we built a more complex Sequential model by increasing the number of initial nuerons to 128 and increasing layer to 5 ( 3 hidden layers with neurons and 2 dropout layers). Our complex model's accuracy remained at 57%. Perhaps we could have looked at reducing the number of features to get better results. 
 
-Discuss Jas part *
 
 
 
-Credits 
+## Credits 
 Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) [Data set]. Kaggle.
     https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric/data
 
@@ -151,7 +150,18 @@ Alharbi, R. 2020. Breast Cancer Gene Expression Profiles (METABRIC) (Version 1) 
     https://www.trioshealth.org/news/breast-cancer-be-aware-and-take-action
 
 
-Helpful links
+## Helpful links
 https://www.youtube.com/watch?v=f579O7Ef8C0 - How to Upload Pandas DataFrame Directly to S3 Bucket AWS python boto3
 
 https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive - saving a csv in colab
+
+
+## S3 links to our datasets
+cleaned data set (31 columns): https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Cleaned_Breast_Cancer_data.csv
+
+Predicted Survivability Dataframe: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/Patients_survival.csv
+
+Uncleaned Data set: https://project4-group5-cadeem-bucket.s3.us-east-2.amazonaws.com/METABRIC_RNA_Mutation.csv
+
+## Tableau link to visualizations
+https://public.tableau.com/app/profile/lucas.perez7848/viz/Breast_Cancer_Jump_Scare_17236965875940/BreastCancerTreatmentsandSurvival?publish=yes
